@@ -1,0 +1,39 @@
+#new_story{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 1204px;
+    flex-direction: column;
+}
+#nav_new_Story{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 15px;
+    width: 100%;
+}
+#icon_App_new_story{
+    margin-right: 35px;
+}
+#story_access_new_story{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+#make_history{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: aqua;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+#form_make_history{
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    top: 20px;
+    resize:unset;
+  }
