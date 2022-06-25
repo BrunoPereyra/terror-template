@@ -3,9 +3,9 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative;
-    width: 78%;
+    width: 80%;
+    top: 53px;
     left: 6%;
-    border-bottom: 1px solid #e6e6e6;
     padding-bottom: 40px;
     margin-bottom: 10px;
 }
@@ -65,7 +65,7 @@
 }
 #about_the_publication_posts_home{
     display: flex;
-    width: 73%;
+    width: 73%; 
     align-items: center;
     justify-content: space-between;
     margin-top:15px;

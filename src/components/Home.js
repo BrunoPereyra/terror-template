@@ -1,6 +1,6 @@
 import React from "react";
 import LeftLayout from "./layout/LeftLayout";
-import PostsHome from "./stories/PostsHome";
+import Posts from "./stories/Posts";
 import RightLayoutHome from "./layout/RightLayoutHome";
 import "../static/styles/Home.css"
 
@@ -9,15 +9,15 @@ export default function Home() {
         <div id="home">
             <LeftLayout />
             <div id="div_posts_home">
-                <PostsHome />
-                <PostsHome />
-                <PostsHome />
-                <PostsHome />
-                <PostsHome />
-                <PostsHome />
-                <PostsHome />
-                <PostsHome />
-                <PostsHome />
+                <Posts />
+                <Posts />
+                <Posts />
+                <Posts />
+                <Posts />
+                <Posts />
+                <Posts />
+                <Posts />
+                <Posts />
             </div>
             <RightLayoutHome />
         </div>
