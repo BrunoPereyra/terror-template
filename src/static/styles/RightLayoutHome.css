@@ -10,7 +10,11 @@
     display: flex;
     align-items: center;
     border-radius: 60px;
-    padding: 5px;
+    padding: 10px;
+    
+}
+#search_layout_home:hover{
+  border: .5px solid rgb(29, 29, 74);
 }
 #search_input_right_layout_home{
   border: 0;
