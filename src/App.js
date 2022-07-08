@@ -1,9 +1,10 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Router } from "react-router-dom";
 import Signup from "./components/access/Signup";
 import Home from "./components/Home";
 import Profile from "./components/profile/Profile";
 import InsideThePost from "./components/stories/InsideThePost";
+import CreateStory from "./components/stories/CreateStory"
 import NewStory from "./components/stories/NewStory";
 import "./static/styles/App.css";
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/NewStory" element={<NewStory />} />
+        <Route exact path="/CreateStory" element={ <CreateStory/> }/>
         <Route exact path="/signup" element={<Signup />} />
         <Route exact path="/profile" element={<Profile/>} />
         <Route exact path="/InsideThePost" element={<InsideThePost/>} />

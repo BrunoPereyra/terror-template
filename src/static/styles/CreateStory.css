@@ -1,0 +1,43 @@
+#CreateStory {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    max-width: 1504px;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: initial;
+    position: absolute;
+    top: 20%;
+}
+
+#post_CreateStory {
+    width: 65%;
+}
+
+#form_createStory {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
+    position: relative;
+    width: 46%;
+
+}
+
+#writeText_createStory {
+    width: 70vw;
+    height: 80%;
+    font-family: inherit;
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    border: none;
+}
+
+#control_input_CreateStory {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

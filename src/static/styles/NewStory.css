@@ -1,19 +1,34 @@
+/* #create_new_story{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 1504px;
+    flex-direction: row;
+    background-color: aqua;
+} */
+#LeftLayout_create_new_story{
+    position: relative;
+    left: -67%;
+}
 #new_story {
     position: relative;
     margin-top: 30px;
 }
 
 .div_new_story {
-    margin-left: 150px;
     display: flex;
     align-items: center;
+    position: relative;
+    left: 9%;
 }
 
 #inputText {
     font-size: 30px;
     border: none;
     padding: 20px;
-    width: 70vw;
+    width: 67%;
+    margin-right: 5%;
 }
 
 #inputText::placeholder {
@@ -25,9 +40,9 @@
     outline-style: none;
 }
 
-#writeText {
-    width: 70vw;
-    height: 100vh;
+#writeText_createStory {
+    width: 35vw;
+    height: 13vh;
     font-family: inherit;
     font-size: 20px;
     border: none;
@@ -36,7 +51,7 @@
 .writeSubmit {
     position: absolute;
     top: 20px;
-    right: 50px;
+    right: -13%;
     color: white;
     background-color: teal;
     padding: 10px;
